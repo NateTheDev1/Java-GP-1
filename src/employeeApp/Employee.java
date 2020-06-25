@@ -95,4 +95,11 @@ public class Employee {
     {
         this.healthPlanId = healthPlanId;
     }
+
+    // other method
+    public String getName()
+    {
+        // Single quotes are for characters, double quotes are for Strings
+        return fname + " " + lname;
+    }
 }
